@@ -3,3 +3,126 @@
   margin: 0;
   padding: 0;
 }
+
+body {
+  font-family: "Courgette", cursive;
+  background-color: rgb(7, 231, 7);
+  font-size: 62.5%;
+}
+
+.heading {
+  font-size: 4rem;
+  color: rgb(61, 61, 61);
+}
+
+header {
+  margin: 7rem 12rem;
+}
+
+.btn {
+  text-align: right;
+
+  /* 
+; */
+}
+
+.random-btn {
+  padding: 1.5rem 4rem;
+  margin-top: 8rem;
+  border-radius: 0.5rem;
+  border: 1px solid rgb(61, 61, 61);
+  background-color: rgb(61, 61, 61);
+  color: rgb(7, 231, 7);
+  font-family: "Courgette", cursive;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.container,
+.btn {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.quote {
+  font-size: 3rem;
+  color: #000;
+  margin-bottom: 0.5rem;
+}
+
+.source,
+.citation,
+.year,
+.tag {
+  font-size: 1rem;
+  text-align: right;
+}
+
+@media (max-width: 668px) {
+  header {
+    margin: 4rem;
+  }
+
+  .heading {
+    font-size: 2rem;
+  }
+
+  .quote {
+    text-align: center;
+    font-size: 2rem;
+  }
+  .source,
+  .citation,
+  .year,
+  .tag {
+    margin-top: 1rem;
+    font-size: 0.7rem;
+    text-align: right;
+  }
+  .btn {
+    text-align: right;
+  }
+
+  .random-btn {
+    padding: 0.7rem;
+    font-size: 0.8rem;
+  }
+}
+
+/***
+ * Media queries
+ ***/
+
+@media (max-width: 320px) {
+  header {
+    width: 70%;
+    margin: 0 auto;
+  }
+  .heading {
+    font-size: 1rem;
+    margin: 2rem auto;
+  }
+
+  .quote {
+    text-align: center;
+    font-size: 1rem;
+  }
+
+  .source,
+  .citation,
+  .year,
+  .tag {
+    margin-top: 2rem;
+    font-size: 0.7rem;
+    text-align: center;
+  }
+
+  .btn {
+    text-align: center;
+  }
+
+  .random-btn {
+    padding: 0.5rem;
+    font-size: 0.8rem;
+  }
+}
